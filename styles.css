@@ -1,0 +1,95 @@
+body{
+    background-color: #fffbf7;
+    margin: 0px;
+    padding: 0px
+}
+h1{
+    color: #025157;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p:nth-of-type(1){
+    color: #46484c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+p:nth-of-type(2){
+    color: #8b8b8bcc;
+}
+p:nth-of-type(3){
+    color: #8b8b8bcc;
+}
+button{
+    background-color: #025157;
+    color: #fff;
+    padding: 10px;
+}
+.header{
+    /* background: red; */
+
+    margin: 10px 10px 10px 10px; 
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+
+    /* padding: 50px 40px 40px 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header > * {
+    /* Afectar a los hijos inmediatos, investigar mas sobre este */
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    vertical-align: middle;
+    height: 100%;
+}
+
+/* nav{
+    background: rgb(227, 227, 227);
+} */
+
+/* ul{
+    display: block;
+    
+} */
+li{
+    display: inline
+} 
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    width: 15%;
+}
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+main{
+    margin-top: 200px;
+}
+
+main > * {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
