@@ -85,11 +85,36 @@ li{
 }
 
 main{
-    margin-top: 200px;
+    width: 1000px;
+    text-align: center;
+    margin: 200px auto;
 }
 
 main > * {
     display: inline-block;
     width: 100%;
-    text-align: center;
+    
 }
+
+.article-1-video{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.article-1-video > * {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.article-1-video h2{
+    color: #025157;
+}
+.article-1-video p:nth-of-type(1){
+    color: #343434
+}
+.article-1-video p:nth-of-type(2){
+    color: #025157
+}
+
